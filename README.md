@@ -1,2 +1,4 @@
-# SiteComSecao
-Esse site vai ser para aprender a navegar em Seção
+# Site sobre Peças e Periféricos de computadores.
+## Turma: 2ª A - 2026
+
+Site desenvolvido pelo aluno Luiz Felipe Frez dos Santos da 2ª Série A do Curso Técnico em Desenvolvimento de Sistemas, do Colégio Estadual Profª Reni correia Gamper. Manoel Ribas - Paraná.
