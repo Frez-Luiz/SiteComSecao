@@ -8,7 +8,7 @@ body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: rgb(255, 236, 220);
-    color: rgb(0, 247, 255);
+    color: rgb(68, 68, 68);
 }
 
 .cabecalho{
@@ -71,3 +71,21 @@ body{
     border-radius: 4px;
 
 }
+
+.descricao{
+    text-align: center;
+    margin: 2em 0;
+    text-shadow: 2px, 2px, 5px #0000;
+}
+
+.descricao h2,
+.fale-conosco h2{
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.2;
+    color: rgb(128, 184, 174);
+}
+
+.secao{
+    max-width: 1200px;
+}
+
