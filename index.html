@@ -11,7 +11,8 @@
 <body id="inicio">
     <header class="cabecalho">
         <div class="cabecalho-marca">
-            <img src="pc02.png" alt="Sobre Pc gamer, foto de teclado, mouse, monitor e fone de ouvido." class="cabecalho-imagem">
+            <img src="pc02.png" alt="Sobre Pc gamer, foto de teclado, mouse, monitor e fone de ouvido."
+                class="cabecalho-imagem">
             <div>
                 <p class="cabecalho-subtitulo">Loja</p>
                 <h1 class="cabecalho-titulo"> Peças e Periféricos de computadores</h1>
@@ -26,28 +27,100 @@
         </nav>
 
         <button class="botao-tema" id="botao-tema" type="button">
-           🌑 Tema
+            🌑 Tema
         </button>
     </header>
 
     <main>
-        <section class="descricao" id="pecas">
-            <h2>Peças</h2>
+        <section class="descricao" id="perifericos">
+            <h2>Periféricos</h2>
         </section>
 
         <section class="secao">
             <div class="texto">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
+                <p>Monte o setup dos seus sonhos e leve seu desempenho para o próximo nível com a nossa linha completa
+                    de peças e periféricos gamer. Seja para garantir aquela vantagem competitiva no FPS, transmissão sem
+                    travamentos ou simplesmente rodar os lançamentos mais pesados com os gráficos no máximo, temos
+                    exatamente o que seu computador precisa. Trabalhamos apenas com as melhores marcas e os componentes
+                    mais avançados do mercado — de placas de vídeo de alta performance e processadores de última geração
+                    a teclados mecânicos, mouses de alta precisão e headsets imersivos.</p>
 
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                <p>Mais do que vender equipamentos, nossa missão é conectar você à melhor experiência de jogo possível.
+                    Oferecemos atendimento especializado feito por quem realmente entende do assunto para ajudar você a
+                    escolher as peças ideais, sempre com preços competitivos, garantia e entrega rápida. Não perca tempo
+                    jogando no limite do seu hardware atual: explore nosso catálogo agora mesmo, atualize seu inventário
+                    e domine todas as partidas!</p>
             </div>
 
             <div class="imagem">
                 <img src="pc02.png" alt="Imagem sobe um setup gamer completo.">
                 <img src="pc06.png" alt="Imagem com um Headset, um mouse gamer e teclado 60% gamer.">
             </div>
-
         </section>
+
+        <section class="descricao" id="pecas">
+            <h2>Peças</h2>
+        </section>
+
+        <section class="secao">
+            <div class="texto">
+                <p>O coração do seu PC merece o melhor em desempenho e confiabilidade. Nossa seleção de peças inclui
+                    processadores de última geração, placas de vídeo de alta performance para encarar os gráficos mais
+                    exigentes, e placas-mãe preparadas para máxima estabilidade e expansão. Para garantir velocidade
+                    máxima nos carregamentos, oferecemos SSDs NVMe ultrarrápidos, memórias RAM com altas frequências e
+                    sistemas de refrigeração como air coolers e water coolers de alta eficiência, mantendo suas
+                    temperaturas baixas mesmo durante as sessões de jogo mais intensas.</p>
+
+                <p>Além de potência bruta, priorizamos a segurança e a longevidade do seu equipamento. Trabalhamos com
+                    fontes de alimentação seladas com certificação 80 Plus, que garantem entrega de energia limpa e
+                    eficiente para todos os seus componentes, e gabinetes gamers projetados com excelente fluxo de ar,
+                    gerenciamento de cabos inteligente e iluminação RGB customizável. Cada componente do nosso catálogo
+                    é rigorosamente selecionado de marcas líderes de mercado para garantir que seu computador funcione
+                    perfeitamente, com alto desempenho e sem gargalos.</p>
+            </div>
+
+            <div class="imagem">
+                <img src="pc03.png" alt="Imagem sobe um setup gamer completo.">
+                <img src="pc04.png" alt="Imagem com um Headset, um mouse gamer e teclado 60% gamer.">
+            </div>
+            </section>
+
+            <section class="fale-conosco" id="contato">
+                <h2>Contato</h2>
+                <p>Preencha os campos abaixo para entrar em contato.</p>
+
+                <form id="formulario-contato" action="https://formsubmit.co/ajax/vladismara@gmail.com&quot; method="
+                    post">
+                    <input type="hidden" name="_subject" value="Nova mensagem do site Trigo e Soja">
+                    <input type="hidden" name="_template" value="table">
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="Nome" placeholder="Digite seu nome completo" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="Telefone" placeholder="(99) 9 9 999-9999" maxlength="16"
+                        required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="Mensagem" rows="6" placeholder="Escreva sua mensagem aqui!"
+                        required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <p id="resposta-formulario" class="aviso-formulario" aria-live="polite"></p>
+            </section>
+
+            <footer id="fim">
+                <div class="texto">
+                    <p><strong>Desenvolido por: </strong> <em>Luiz Frez</em> <br>
+                    WhatsApp: (43) 9 9127-2343 | luizfrez@gmail.com
+
+                </div>
+            </footer>
     </main>
 
 </body>
