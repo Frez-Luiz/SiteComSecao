@@ -298,8 +298,8 @@ body.tema-escuro .fale-conosco label {
 
 footer {
     min-height: 7em;
-    color: #81b29a;
-    background-color:#81b29a;
+    color: #000000;
+    background-color:#cbdfd5;
     display: flex;
     justify-content: center;
     align-items: center;
