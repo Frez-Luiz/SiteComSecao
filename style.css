@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
     background-color: rgb(255, 236, 220);
     color: rgb(68, 68, 68);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .cabecalho {
@@ -20,7 +21,6 @@ body {
     gap: 20px;
     padding: 12px 20px;
     border-radius: 5px;
-
 }
 
 .cabecalho-marca {
@@ -38,7 +38,6 @@ body {
 .cabecalho-subtitulo {
     font-size: 14px;
     color: black;
-
 }
 
 .cabecalho-titulo {
@@ -62,20 +61,23 @@ body {
     font-family: Calibri, sans-serif;
     font-size: 20px;
     text-decoration: none;
-
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
     padding: 6px 8px;
     border-radius: 4px;
+}
 
+.cabecalho a:hover {
+    background-color: #EBF1E0;
+    color: #000000;
 }
 
 .descricao {
     text-align: center;
     margin: 2em 0;
-    text-shadow: 2px, 2px, 5px #0000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .descricao h2,
@@ -83,15 +85,6 @@ body {
     font-size: clamp(28px, 4vw, 44px);
     line-height: 1.2;
     color: rgb(128, 184, 174);
-}
-
-.secao {
-    max-width: 1200px;
-}
-
-.cabecalho a:hover {
-    background-color: #EBF1E0;
-    color: #000000;
 }
 
 .botao-tema {
@@ -117,7 +110,7 @@ body {
     gap: 22px;
     background-color: #FFFEF9;
     border-radius: 5px;
-    box-shadow: 8px 8px 18px #2E431C2E;
+    box-shadow: 8px 8px 18px rgba(46, 67, 28, 0.18);
 }
 
 .texto {
@@ -150,44 +143,17 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
-/* secao contato */
-.fale-conosco h2, 
-.fale-conosco > p{
-    margin-pottom: 15px;
-    text-align: center;
-}
-
-.fale-conosco, form{
-    display: flex;
-    flex-direction: column;
-}
-
-.fale-conosco label{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color:rgb(8, 8, 8);
-    font-weight: bold;
-}
-.fale-conosco input,
-.fale-conosco textarea{
-    padding: 10px;
-    border: 1px solid #444444;
-    border-radius: 4px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-
-
-
+/* Seção Contato */
 .fale-conosco {
     max-width: 600px;
     margin: 0 auto 2em;
     padding: clamp(18px, 4vw, 28px);
     background-color: #FFFEF9;
     border-radius: 5px;
-    box-shadow: 8px 8px 18px #2E431C2E;
+    box-shadow: 8px 8px 18px rgba(46, 67, 28, 0.18);
 }
 
 .fale-conosco h2,
@@ -266,4 +232,39 @@ body {
 .fale-conosco .erro {
     color: #912E23;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para o Tema Escuro */
+body.tema-escuro {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.tema-escuro .cabecalho {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.tema-escuro .cabecalho a {
+    color: #ffffff;
+}
+
+body.tema-escuro .cabecalho-subtitulo {
+    color: #cccccc;
+}
+
+body.tema-escuro .secao,
+body.tema-escuro .fale-conosco {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.5);
+}
+
+body.tema-escuro .fale-conosco label {
+    color: #81b29a;
 }
